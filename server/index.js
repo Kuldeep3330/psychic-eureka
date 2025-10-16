@@ -22,9 +22,9 @@ app.get('/users/:id', (req, res)=>{
 
 //POST-> create new user
 app.post('/users', (req, res)=>{
-    const {username, password, hobbies}= req.body
+    let {username, password, hobbies}= req.body
 
-    const newUser={
+    let newUser={
         id:users.length+1,
         username,
         password,
