@@ -9,8 +9,7 @@ function DeleteUser(){
         })
         const data= await res.json()
         console.log(data);
-        alert(data.message)
-        
+        alert(data.message)        
     }
 
     return(<>
@@ -19,3 +18,5 @@ function DeleteUser(){
     <button onClick={handleClick}>delete</button>
     </>)
 }
+
+export default DeleteUser

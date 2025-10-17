@@ -4,6 +4,7 @@ import GetUsers from './GetUsers';
 import CreateUser from './CreateUser';
 import UpdateUserPut from './UpdateUserPut';
 import UpdateUserPatch from './UpdateUserPatch';
+import DeleteUser from './DeleteUser';
 
 function App(){
   return (
@@ -12,7 +13,8 @@ function App(){
     {/* <CreateUser/>
      */}
      {/* <UpdateUserPut/> */}
-     <UpdateUserPatch/>
+     {/* <UpdateUserPatch/> */}
+     <DeleteUser/>
     </>
   )
 }
