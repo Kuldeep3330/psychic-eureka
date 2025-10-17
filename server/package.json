@@ -15,6 +15,7 @@
   "author": "Kuldeep kumar",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   },
